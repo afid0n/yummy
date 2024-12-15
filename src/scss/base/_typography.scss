@@ -87,4 +87,32 @@
   }
 #hero-title{
     font-family: "Amatic SC", sans-serif;
+    font-size: 4rem;
 }  
+#hero-paragraph{
+  font-size: 20px;
+  color: #8f8f8f;
+}
+.about-us__heading{
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 4rem;
+  h5{
+    padding-top: 3rem;
+    color: #8f8f8f;
+    font-weight: 400;
+  }
+  h3{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    span{
+      font-family: "Amatic SC", sans-serif;
+      color: red;
+    }
+  }
+}

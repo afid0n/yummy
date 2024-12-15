@@ -3,8 +3,10 @@ header{
     justify-content: space-between;
     padding: 1rem 4rem;
     align-items: center;
-    position: sticky;
+    position: fixed;
     z-index: 999;
+    width: 100%;
+    background-color: #fff;
 
 nav{
     display: flex; 
@@ -65,9 +67,19 @@ nav{
     color: black;
     span{
        color:#CE1212;
-    margin-right: ;
+    margin-right: 6px;
     }
 }
+.burger-menu{
+    display: none;
+ }
+ @media (max-width: 768px) {
+    .list {
+        display: none; 
+    }
 
-
-    
+    .burger-menu {
+        display: block; 
+       
+    }
+}

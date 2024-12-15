@@ -1,0 +1,135 @@
+.why-choose-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 5%;
+    background-color: #f2f2f2;
+    gap: 20px;
+    height: 60vh;
+  }
+  
+  .why-choose {
+    flex: 1;
+    flex-direction: column;
+   padding: 3rem;
+    max-width: 40%;
+    background-color: #CE1212;
+    height: 90%;
+
+  
+  
+   h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+   p {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+}
+  
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 60px;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+   
+  }
+  
+  .btn i {
+    margin-left: 5px;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex: 2;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+  
+  .icon {
+    font-size: 2.5rem;
+    color: #CE1212;
+    margin-bottom: 15px;
+    transition: 0.6s;
+    &:hover{
+        color: #620707;
+    }
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+    color: #777;
+    line-height: 1.5;
+  }
+  @media (max-width: 991px) {
+    .why-choose-section {
+      flex-direction: column; 
+      height: auto;
+      padding: 30px 5%;
+    }
+  
+    .why-choose {
+      max-width: 100%; 
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .cards-container {
+      justify-content: center; 
+    }
+  
+    .card {
+      width: calc(50% - 20px); 
+    }
+  }
+  
+
+  @media (max-width: 576px) {
+    .why-choose {
+      padding: 1.5rem; 
+    }
+  
+    .why-choose h2 {
+      font-size: 1.5rem; 
+    }
+  
+    .why-choose p {
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      padding: 0.8rem 1.5rem; 
+    }
+  
+    .card {
+      width: 100%; 
+    }
+  }

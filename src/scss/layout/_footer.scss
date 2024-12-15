@@ -1,0 +1,68 @@
+  .stats-section {
+    position: relative;
+    background: url(https://bootstrapmade.com/content/demo/Yummy/assets/img/stats-bg.jpg) ;
+    color: white;
+    text-align: center;
+    padding: 80px 5%;
+  }
+  
+  .stats-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .stat-item {
+    flex: 1;
+  }
+  
+  .stat-item h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .stat-item p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  @media (max-width: 768px) {
+    .stats-container {
+      flex-direction: column; 
+      gap: 30px;
+    }
+  
+    .stat-item h2 {
+      font-size: 2.4rem;
+    }
+  
+    .stat-item p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stats-section {
+      padding: 40px 5%;
+    }
+  
+    .stat-item h2 {
+      font-size: 2rem;
+    }
+  
+    .stat-item p {
+      font-size: 0.9rem;
+    }
+  }
